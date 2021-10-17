@@ -5,12 +5,12 @@ $('.testimonials__card-boxes').slick({
     slidesToShow: 3,
     responsive: [
         {
-            breakpoint: 768,
+            breakpoint: 1200,
             settings: {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
+                slidesToShow: 2
             }
         },
         {

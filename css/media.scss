@@ -1,0 +1,425 @@
+@media (max-width: 1200px) {
+//  from 1200px t0 992px
+    .container{
+      max-width: 980px;
+    }
+  .col{
+    &-160 {
+      width: 166px;
+    }
+    &-4 {
+      width: 47.333%;
+      &:last-child{
+        margin: 0 auto;
+      }
+    }
+    &-3 {
+      width: 39%;
+    }
+  }
+  .hero {
+    &__rule-photo {
+      top: 83px;
+      right: -164px;
+      height: 71%;
+      opacity: 0.9;
+    }
+    &__photo-2 {
+      top: 68px;
+      left: 10px;
+      height: 7%;
+    }
+    &__photo-1 {
+      top: 78px;
+      height: 7%;
+    }
+    &__photo-3 {
+      bottom: 121px;
+      left: 530px;
+      height: 7%;
+    }
+  }
+
+  .page-icon{
+    &__photo-box{
+      padding: 45px 0;
+    }
+    &__photo-box_element{
+      height: 35px;
+    }
+  }
+
+  .about-us {
+    padding: 90px 0;
+    overflow: hidden;
+    &_right {
+      position: absolute;
+      top: 27px;
+      right: -69px;
+      height: 95%;
+    }
+
+  }
+
+  .features{
+    padding: 20px 0 70px;
+    &_col-4{
+      margin-bottom: 30px;
+      &:first-child{
+        margin-left: 20px;
+      }
+      &:last-child{
+          margin: 0 auto;
+          box-shadow: 15px 25px 56px 6px rgb(0 0 0 / 6%);
+      }
+      &:nth-child(2){
+        margin-left: 35px;
+      }
+    }
+    &_shadow{
+      box-shadow: none;
+    }
+  }
+
+  .services {
+    padding: 63px 0 110px;
+    &_col-4{
+      margin-bottom: 40px;
+      &:first-child{
+        margin-left: 15px;
+      }
+      &:nth-child(2){
+        margin-left: 15px;
+      }
+       &:last-child{
+         box-shadow: 15px 25px 60px -5px rgb(0 0 0 / 10%);
+
+       }
+    }
+    &__card-box_shadow {
+      box-shadow: none;
+    }
+  }
+
+  .what-we-do{
+    &_photo {
+      position: absolute;
+      top: 97px;
+      left: -60px;
+      height: 426px;
+    }
+    &_col-6 {
+      padding: 1px 0 0 0;
+    }
+    &_mean {
+      margin-bottom: 50px;
+    }
+    &__card-box_mean {
+      max-width: 359px;
+    }
+  }
+
+  .funfact{
+    &__straight-box {
+      padding: 33px 27px;
+    }
+  }
+
+  .mail-box{
+    padding: 0;
+    &_photo {
+      position: absolute;
+      right: -158px;
+      top: 57px;
+      height: 470px;
+    }
+    &__card-box_title {
+      padding: 104px 0 0;
+      max-width: 430px;
+      text-align: center;
+    }
+    &__button-box {
+       display: block;
+       margin-bottom: 110px;
+    }
+    &_label {
+      margin: 0 0 30px 56px;
+    }
+    &__card-box_mean {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    &_button {
+      margin-left: 164px;
+    }
+  }
+
+  .plans{
+    padding: 80px 0 64px;
+    &__mean {
+      margin-bottom: 16px;
+    }
+    &_col-4{
+      margin-bottom: 30px;
+      &:nth-child(2){
+        margin-left: 25px;
+      }
+      &:last-child{
+        box-shadow: 15px 25px 70px -5px rgb(0 0 0 / 7%);
+
+      }
+    }
+    &__card-box_shadow {
+      box-shadow: none;
+    }
+  }
+
+  .team{
+    padding: 80px 0 70px;
+    &_col-3{
+      margin-bottom: 30px;
+      &:nth-child(2){
+        margin-left: 90px;
+      }
+      &:nth-child(4){
+        margin-left: 90px;
+      }
+      &:nth-child(3){
+        margin-left: 60px;
+      }
+      &:nth-child(1){
+        margin-left: 60px;
+      }
+    }
+  }
+
+  .testimonials{
+    padding: 65px 0 110px;
+  }
+
+  .blog-post {
+    overflow: hidden;
+    padding: 20px 0 88px;
+  }
+
+  .footer{
+    &__card-box_mean {
+      max-width: 216px;
+    }
+  }
+}
+
+
+
+@media (max-width: 992px) {
+//  from 992px to 768px
+  .container{
+    max-width: 930px;
+  }
+  .col{
+    &-160 {
+      width: 154px;
+    }
+  }
+  .hero{
+    &__title {
+      font-size: 56px;
+      line-height: 66px;
+      margin-bottom: 14px;
+      padding: 116px 0 0;
+    }
+    &__rule-photo {
+      top: 80px;
+      right: -164px;
+      height: 70%;
+    }
+  }
+  .page-icon{
+    &__photo-box {
+      padding: 20px 0 40px;
+    }
+  }
+  $rule-text-size-992: 43px;
+  .about-us {
+    padding: 53px 0;
+    &__title {
+      line-height: 51px;
+      font-size: $rule-text-size-992;
+    }
+    &__mean {
+      font-size: 15px;
+      line-height: 143%;
+      max-width: 471px;
+      margin-bottom: 32px;
+    }
+    &_right {
+      top: -37px;
+      right: -62px;
+      height: 116%;
+    }
+  }
+  .features{
+    &_col-4{
+      &:first-child {
+        margin-left: 15px;
+      }
+      &:nth-child(2) {
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .services{
+    &__title{
+      font-size: $rule-text-size-992;
+      margin-bottom: 15px;
+    }
+  }
+
+
+  .what-we-do{
+    &_photo {
+      left: -90px;
+      height: 411px;
+    }
+    &__title{
+      font-size: $rule-text-size-992;
+      line-height: 47px;
+      max-width: 465px;
+      margin-bottom: 15px;
+      }
+    &__mean {
+      font-size: 15px;
+      line-height: 136%;
+      max-width: 450px;
+      margin-bottom: 43px;
+    }
+    &_icon{
+      height: 91px;
+    }
+  }
+
+
+  .funfact {
+    padding: 40px 0 36px;
+    &__card-box_number {
+      font-size: 65px;
+      line-height: 150%;
+    }
+    &__straight-box_photo {
+      top: 80px;
+    }
+  }
+
+
+  .mail-box {
+    &__card-box_title {
+      font-size: $rule-text-size-992;
+      line-height: 126%;
+    }
+
+    &_photo {
+      height: 463px;
+    }
+    &__card-box_mean {
+      max-width: 386px;
+      font-size: 15px;
+    }
+  }
+
+
+  .plans {
+    padding: 48px 0 60px;
+    &__title {
+      font-size: $rule-text-size-992;
+      line-height: 120%;
+    }
+  }
+
+
+
+  .team {
+    padding: 65px 0 45px;
+    &__title {
+      font-size: $rule-text-size-992;
+      line-height: 120%;
+      margin-bottom: 10px;
+    }
+    &__mean {
+      font-size: 16px;
+      margin: 0 auto 40px;
+    }
+  }
+
+
+  .testimonials {
+    padding: 55px 0 90px;
+    &__mean{
+      margin: 0 auto 28px
+    }
+  }
+
+
+  .blog-post{
+    &__title{
+      font-size: $rule-text-size-992;
+      line-height: 120%;
+    }
+    &__mean{
+      margin: 0 auto 35px;
+    }
+  }
+
+
+  .footer {
+    &__col {
+      width: 47%;
+      margin-left: 20px;
+    }
+
+    &__col_mean {
+      margin-left: 20px;
+      width: 46%;
+      margin-bottom: 20px;
+    }
+
+    &__card-box_mean {
+      max-width: 265px;
+    }
+
+    &__li {
+      margin-bottom: 10px;
+    }
+
+    &__title {
+      font-size: 22px;
+      line-height: 130%;
+      margin-bottom: 19px;
+    }
+  }
+}
+
+
+
+@media (max-width: 768px) {
+//  from 768px to 576px
+  .container{
+    max-width: 700px;
+  }
+  .header{
+    &__ul {
+      display: none;
+    }
+    &__button{
+      display: none;
+    }
+  }
+  .about-us{
+    &__title{
+      max-width: 683px;
+    }
+    &__mean{
+      max-width: 700px;
+    }
+  }
+}
