@@ -731,8 +731,8 @@ body {
 }
 .blog-post__card-box {
   border: 2px solid #EEEEEE;
-  max-width: 770px !important;
   display: flex;
+  flex-wrap: wrap;
 }
 .blog-post__card-box_title {
   font-size: 24px;
@@ -885,6 +885,14 @@ body {
   font-weight: 500;
   color: #888888;
   text-align: center;
+}
+
+.owl-item {
+  width: 770px;
+}
+
+.owl-carousel .owl-item img {
+  display: block;
 }
 
 .bold {

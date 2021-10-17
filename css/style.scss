@@ -718,8 +718,8 @@ body{
   }
   &__card-box{
     border: 2px solid #EEEEEE;
-    max-width: 770px !important;
     display: flex;
+    flex-wrap: wrap;
     &_title{
       font-size: $text-size;
       line-height: 150%;
@@ -878,9 +878,13 @@ body{
     text-align: center;
   }
 }
-
-
+.owl-item{
+  width: 770px;
+}
+.owl-carousel .owl-item img {
+  display: block;
+}
 
 .bold{
-  font-weight: 700;
+font-weight: 700;
 }
