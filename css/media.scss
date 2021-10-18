@@ -432,11 +432,14 @@
     &__button {
       display: none;
     }
+    &__li{
+      margin-bottom: 20px;
+    }
     &__link{
       color: #EEEEEE;
+      font-size: 18px;
       &:hover{
         color: black;
-        text-decoration: underline;
       }
     }
   }
@@ -1192,7 +1195,7 @@
       margin: 0 auto 10px;
     }
     &__mean {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 128%;
       max-width: 295px;
       margin: 0 auto 19px;
@@ -1205,6 +1208,11 @@
     }
   }
 
+  .page-icon{
+    &__row{
+      margin: 0 -5px;
+    }
+  }
 
   .features{
     &__card-box {
@@ -1223,12 +1231,12 @@
       }
     }
     &__title {
-      font-size: 18px;
+      font-size: 19px;
       margin-bottom: 10px;
       line-height: 18px;
     }
     &__mean {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 144%;
       max-width: 194px;
     }
@@ -1241,7 +1249,7 @@
       line-height: 11px;
     }
     &__mean {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 126%;
       max-width: 256px;
     }
@@ -1254,11 +1262,11 @@
     }
     &__card-box_title {
       line-height: 20px;
-      font-size: 15px;
+      font-size: 19px;
       margin-bottom: 6px;
     }
     &__card-box_mean {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 116%;
       max-width: 259px;
       margin: 0 auto 13px;
@@ -1267,6 +1275,9 @@
 
   .what-we-do{
     min-height: 626px;
+    &_row{
+      margin: 0 -5px;
+    }
     &__title {
       font-size: 18px;
       line-height: 22px;
@@ -1274,7 +1285,7 @@
       margin: 0 auto 9px;
     }
     &__mean {
-      font-size: 11px;
+      font-size: 12px;
       line-height: 119%;
       max-width: 277px;
       margin: 0 auto 22px;
@@ -1283,11 +1294,11 @@
       height: 55px;
     }
     &__card-box_title {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 79%;
     }
     &__card-box_mean {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 99%;
       max-width: 228px;
     }
@@ -1314,7 +1325,7 @@
      display: none;
     }
     &__card-box_mean {
-      font-size: 10px;
+      font-size: 14px;
       line-height: 93%;
     }
   }
@@ -1331,20 +1342,20 @@
     }
     &__card-box_mean {
       max-width: 100%;
-      font-size: 10px;
+      font-size: 14px;
     }
     &_label {
       margin: 0 0 15px;
     }
     &__input {
       width: 50%;
-      font-size: 10px;
+      font-size: 14px;
       line-height: 90%;
       padding: 14px 17px;
     }
     &__input_right{
       width: 50%;
-      font-size: 10px;
+      font-size: 14px;
       line-height: 90%;
       padding: 14px 17px;
     }
@@ -1367,7 +1378,7 @@
       line-height: 68%;
     }
     &__mean {
-      font-size: 11px;
+      font-size: 14px;
     }
     &__card-box {
       padding: 30px 14px 30px;
@@ -1385,11 +1396,11 @@
       font-size: 16px;
     }
     &__card-box_date {
-      font-size: 11px;
+      font-size: 14px;
     }
     &__card-box_item {
       max-width: 110px;
-      font-size: 10px;
+      font-size: 14px;
       line-height: 161%;
       letter-spacing: 0;
     }
@@ -1408,7 +1419,7 @@
       line-height: 74%;
     }
     &__mean {
-      font-size: 11px;
+      font-size: 14px;
     }
     &__card-box {
       padding: 17px 14px;
@@ -1417,11 +1428,11 @@
       height: 72px;
     }
     &__card-box_name {
-      font-size: 15px;
+      font-size: 16px;
       line-height: 130%;
     }
     &__card-box_name {
-      font-size: 15px;
+      font-size: 16px;
       line-height: 130%;
     }
   }
@@ -1434,12 +1445,12 @@
     }
     &__mean {
       width: 90%;
-      font-size: 11px;
+      font-size: 14px;
       line-height: 104%;
       margin: 0 auto 15px;
     }
     &__card-box_title {
-      font-size: 10px;
+      font-size: 14px;
       line-height: 150%;
       margin: 0 auto 14px;
     }
@@ -1451,7 +1462,7 @@
       margin-bottom: 5px;
     }
     &__card-box_name {
-      font-size: 12px;
+      font-size: 14px;
       line-height: 131%;
     }
   }
@@ -1463,7 +1474,7 @@
     &__mean {
       max-width: 90%;
       margin: 0 auto 23px;
-      font-size: 11px;
+      font-size: 14px;
     }
     &__card-box {
       border: 2px solid #EEEEEE;
@@ -1473,7 +1484,7 @@
       height: 420px;
     }
     &__card-box_title {
-      font-size: 15px;
+      font-size: 16px;
       line-height: 101%;
       margin-bottom: 10px;
     }
@@ -1485,7 +1496,7 @@
       width: 0;
     }
     &__card-box_mean {
-      font-size: 11px;
+      font-size: 14px;
       line-height: 150%;
       color: #666666;
       margin-bottom: 18px;
@@ -1511,15 +1522,15 @@
       margin-bottom: 10px;
     }
     &__title {
-      font-size: 16px;
+      font-size: 17px;
       line-height: 100%;
     }
     &__link {
-      font-size: 12px;
+      font-size: 14px;
     }
     &__end-title {
       padding: 0 0 0;
-      font-size: 11px;
+      font-size: 14px;
     }
   }
 }

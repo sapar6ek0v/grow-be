@@ -376,12 +376,15 @@
   .header__button {
     display: none;
   }
+  .header__li {
+    margin-bottom: 20px;
+  }
   .header__link {
     color: #EEEEEE;
+    font-size: 18px;
   }
   .header__link:hover {
     color: black;
-    text-decoration: underline;
   }
 
   .header_button {
@@ -1087,7 +1090,7 @@
     margin: 0 auto 10px;
   }
   .about-us__mean {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 128%;
     max-width: 295px;
     margin: 0 auto 19px;
@@ -1097,6 +1100,10 @@
   }
   .about-us_right {
     height: 70%;
+  }
+
+  .page-icon__row {
+    margin: 0 -5px;
   }
 
   .features__card-box {
@@ -1113,12 +1120,12 @@
     margin: 0 auto 25px;
   }
   .features__title {
-    font-size: 18px;
+    font-size: 19px;
     margin-bottom: 10px;
     line-height: 18px;
   }
   .features__mean {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 144%;
     max-width: 194px;
   }
@@ -1131,7 +1138,7 @@
     line-height: 11px;
   }
   .services__mean {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 126%;
     max-width: 256px;
   }
@@ -1144,11 +1151,11 @@
   }
   .services__card-box_title {
     line-height: 20px;
-    font-size: 15px;
+    font-size: 19px;
     margin-bottom: 6px;
   }
   .services__card-box_mean {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 116%;
     max-width: 259px;
     margin: 0 auto 13px;
@@ -1157,6 +1164,9 @@
   .what-we-do {
     min-height: 626px;
   }
+  .what-we-do_row {
+    margin: 0 -5px;
+  }
   .what-we-do__title {
     font-size: 18px;
     line-height: 22px;
@@ -1164,7 +1174,7 @@
     margin: 0 auto 9px;
   }
   .what-we-do__mean {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 119%;
     max-width: 277px;
     margin: 0 auto 22px;
@@ -1173,11 +1183,11 @@
     height: 55px;
   }
   .what-we-do__card-box_title {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 79%;
   }
   .what-we-do__card-box_mean {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 99%;
     max-width: 228px;
   }
@@ -1202,7 +1212,7 @@
     display: none;
   }
   .funfact__card-box_mean {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 93%;
   }
 
@@ -1218,20 +1228,20 @@
   }
   .mail-box__card-box_mean {
     max-width: 100%;
-    font-size: 10px;
+    font-size: 14px;
   }
   .mail-box_label {
     margin: 0 0 15px;
   }
   .mail-box__input {
     width: 50%;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 90%;
     padding: 14px 17px;
   }
   .mail-box__input_right {
     width: 50%;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 90%;
     padding: 14px 17px;
   }
@@ -1251,7 +1261,7 @@
     line-height: 68%;
   }
   .plans__mean {
-    font-size: 11px;
+    font-size: 14px;
   }
   .plans__card-box {
     padding: 30px 14px 30px;
@@ -1269,11 +1279,11 @@
     font-size: 16px;
   }
   .plans__card-box_date {
-    font-size: 11px;
+    font-size: 14px;
   }
   .plans__card-box_item {
     max-width: 110px;
-    font-size: 10px;
+    font-size: 14px;
     line-height: 161%;
     letter-spacing: 0;
   }
@@ -1292,7 +1302,7 @@
     line-height: 74%;
   }
   .team__mean {
-    font-size: 11px;
+    font-size: 14px;
   }
   .team__card-box {
     padding: 17px 14px;
@@ -1301,11 +1311,11 @@
     height: 72px;
   }
   .team__card-box_name {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 130%;
   }
   .team__card-box_name {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 130%;
   }
 
@@ -1318,12 +1328,12 @@
   }
   .testimonials__mean {
     width: 90%;
-    font-size: 11px;
+    font-size: 14px;
     line-height: 104%;
     margin: 0 auto 15px;
   }
   .testimonials__card-box_title {
-    font-size: 10px;
+    font-size: 14px;
     line-height: 150%;
     margin: 0 auto 14px;
   }
@@ -1335,7 +1345,7 @@
     margin-bottom: 5px;
   }
   .testimonials__card-box_name {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 131%;
   }
 
@@ -1345,7 +1355,7 @@
   .blog-post__mean {
     max-width: 90%;
     margin: 0 auto 23px;
-    font-size: 11px;
+    font-size: 14px;
   }
   .blog-post__card-box {
     border: 2px solid #EEEEEE;
@@ -1355,7 +1365,7 @@
     height: 420px;
   }
   .blog-post__card-box_title {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 101%;
     margin-bottom: 10px;
   }
@@ -1367,7 +1377,7 @@
     width: 0;
   }
   .blog-post__card-box_mean {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 150%;
     color: #666666;
     margin-bottom: 18px;
@@ -1395,15 +1405,15 @@
     margin-bottom: 10px;
   }
   .footer__title {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 100%;
   }
   .footer__link {
-    font-size: 12px;
+    font-size: 14px;
   }
   .footer__end-title {
     padding: 0 0 0;
-    font-size: 11px;
+    font-size: 14px;
   }
 }
 
