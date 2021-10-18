@@ -14,7 +14,7 @@ $('.testimonials__card-boxes').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 768,
             settings: {
                 arrows: false,
                 centerMode: true,

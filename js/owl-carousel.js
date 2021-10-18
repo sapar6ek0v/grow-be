@@ -12,10 +12,10 @@ $(document).ready(function(){
                 items:1,
                 nav:true
             },
-            600:{
-                items:2,
+            480:{
+                items:1.3,
             },
-            769 : {
+            768 : {
                 items: 2,
             }
         }

@@ -211,10 +211,15 @@
 
 
 
+
+
 @media (max-width: 992px) {
 //  from 992px to 768px
   .container{
-    max-width: 930px;
+    max-width: 900px;
+  }
+  .header__ul {
+    display: none;
   }
   .col{
     &-160 {
@@ -239,12 +244,10 @@
       padding: 20px 0 40px;
     }
   }
-  $rule-text-size-992: 43px;
   .about-us {
     padding: 53px 0;
     &__title {
       line-height: 51px;
-      font-size: $rule-text-size-992;
     }
     &__mean {
       font-size: 15px;
@@ -271,7 +274,7 @@
 
   .services{
     &__title{
-      font-size: $rule-text-size-992;
+      font-size: 43px;
       margin-bottom: 15px;
     }
   }
@@ -283,7 +286,7 @@
       height: 411px;
     }
     &__title{
-      font-size: $rule-text-size-992;
+      font-size: 43px;
       line-height: 47px;
       max-width: 465px;
       margin-bottom: 15px;
@@ -314,7 +317,7 @@
 
   .mail-box {
     &__card-box_title {
-      font-size: $rule-text-size-992;
+      font-size: 43px;
       line-height: 126%;
     }
 
@@ -331,7 +334,7 @@
   .plans {
     padding: 48px 0 60px;
     &__title {
-      font-size: $rule-text-size-992;
+      font-size: 43px;
       line-height: 120%;
     }
   }
@@ -341,7 +344,7 @@
   .team {
     padding: 65px 0 45px;
     &__title {
-      font-size: $rule-text-size-992;
+      font-size: 43px;
       line-height: 120%;
       margin-bottom: 10px;
     }
@@ -362,7 +365,7 @@
 
   .blog-post{
     &__title{
-      font-size: $rule-text-size-992;
+      font-size: 43px;
       line-height: 120%;
     }
     &__mean{
@@ -401,25 +404,392 @@
 
 
 
+
+
 @media (max-width: 768px) {
-//  from 768px to 576px
-  .container{
-    max-width: 700px;
+  //768px  576px
+  .container {
+    max-width: 560px;
   }
-  .header{
+  .col {
+    &-160 {
+      width: 170px;
+      margin-bottom: 20px;
+    }
+    &-4{
+      width: 60%;
+      margin: 0 auto;
+    }
+    &-3 {
+      width: 64%;
+      margin: 0 auto;
+    }
+    &-6{
+      width: 100%;
+    }
+  }
+
+
+  .header {
     &__ul {
       display: none;
     }
-    &__button{
+    &__button {
       display: none;
     }
   }
-  .about-us{
-    &__title{
-      max-width: 683px;
+
+
+  .hero {
+      min-height: 484px;
+
+      &__rule-photo {
+        display: none;
+      }
+
+      &__title {
+        font-size: 52px;
+        line-height: 62px;
+        margin-bottom: 12px;
+        padding: 90px 0 0;
+      }
+
+      &__photo-2 {
+        top: 38px;
+        left: 10px;
+        height: 6%;
+      }
+
+      &__photo-1 {
+        top: 36px;
+        height: 6%;
+        left: 502px;
+      }
+
+      &__photo-3 {
+        bottom: 100px;
+        left: 522px;
+        height: 6%;
+      }
     }
-    &__mean{
-      max-width: 700px;
+
+
+  .page-icon {
+      &__photo-box {
+        padding: 20px 0 27px;
+      }
+
+      &__photo-box_element {
+        height: 27px;
+      }
+    }
+
+
+  .about-us {
+      padding: 33px 0 0;
+      min-height: 730px;
+      &__title {
+        line-height: 44px;
+        font-size: 36px;
+        margin: 0 auto 15px;
+        text-align: center;
+      }
+    &__mean {
+      font-size: 14px;
+      line-height: 143%;
+      max-width: 541px;
+      margin: 0 auto 22px;
+      text-align: center;
+    }
+    &_right {
+      top: 218px;
+      right: -93px;
+      height: 75%;
+    }
+    &_margin-right{
+      margin: 0 184px;
+    }
+    }
+
+
+  .features{
+    overflow: hidden;
+    &_col-4{
+      &:first-child{
+        margin: 0 auto 35px;
+      }
+      &:nth-child(2){
+        margin: 0 auto 35px;
+      }
+    }
+  }
+
+
+  .services{
+    overflow: hidden;
+    padding: 50px 0 79px;
+    &__title {
+      font-size: 34px;
+      margin-bottom: 15px;
+      line-height: 30px;
+    }
+    &__mean {
+      font-size: 15px;
+      line-height: 146%;
+      max-width: 433px;
+      margin: 0 auto 45px;
+    }
+    &_col-4{
+      &:first-child{
+        margin: 0 auto 35px;
+      }
+      &:nth-child(2){
+        margin: 0 auto 35px;
+      }
+    }
+    &_photo-card {
+      margin-bottom: 7px;
+      height: 212px;
+    }
+    }
+
+
+  .what-we-do{
+    min-height: 741px;
+    &_photo {
+      left: 92px;
+      top: 450px;
+      height: 311px;
+    }
+    &_col-6{
+      padding: 1px 0 0 30px;
+    }
+    &__title {
+      font-size: 35px;
+      line-height: 38px;
+      max-width: 457px;
+      margin: 0 auto 11px;
+      text-align: center;
+    }
+    &__mean {
+      font-size: 14px;
+      line-height: 127%;
+      max-width: 450px;
+      margin: 0 auto 36px;
+      text-align: center;
+    }
+    &_icon {
+      height: 70px;
+    }
+    &__card-box {
+      max-width: 467px;
+      margin: 0 auto 20px;
+    }
+    &__card-box_title {
+      font-size: 17px;
+      line-height: 111%;
+    }
+    &__card-box_mean {
+      font-size: 13px;
+      line-height: 130%;
+      max-width: 364px;
+    }
+  }
+
+
+  .funfact{
+    padding: 61px 0 36px;
+    &__straight-box {
+      padding: 33px 20px;
+    }
+    &__card-box_number {
+      font-size: 40px;
+      line-height: 100%;
+    }
+    &__card-box_mean {
+      font-size: 12px;
+      line-height: 100%;
+    }
+    &__straight-box_photo {
+      top: 54px;
+      height: 7px;
+    }
+  }
+
+
+  .mail-box{
+    min-height: 795px;
+    &_photo {
+      position: absolute;
+      right: 9px;
+      top: 445px;
+      height: 350px;
+    }
+    &__card-box_title {
+      padding: 55px 0 0;
+      font-size: 37px;
+      line-height: 114%;
+      margin: 0 auto;
+    }
+    &__card-box_mean {
+      max-width: 503px;
+      font-size: 13px;
+      margin: 0 auto 20px;
+    }
+    &_label {
+      margin: 0 55px 20px 110px;
+    }
+    &_button {
+      margin-left: 232px;
+    }
+  }
+
+
+  .plans{
+    padding: 80px 0 60px;
+    &__title {
+      font-size: 36px;
+      line-height: 83%;
+      margin-bottom: 15px;
+    }
+    &__mean {
+      font-size: 14px;
+      margin-bottom: 13px;
+    }
+    &__card-box {
+      padding: 48px 25px 52px;
+    }
+    &_col-4{
+      &:first-child{
+        margin-bottom: 20px;
+      }
+      &:nth-child(2) {
+        margin: 0 auto 20px;
+      }
+    }
+    &__card-box_dollar{
+      top: 99px;
+      left: 57px;
+    }
+    &__card-box_dollar-right{
+      left: 48px;
+    }
+    &__card-box_item {
+      max-width: 217px;
+      font-size: 15px;
+      line-height: 184%;
+      letter-spacing: 2px;
+      margin: 0 auto 15px;
+    }
+    &__card-box_text {
+      font-size: 62px;
+      line-height: 108%;
+    }
+  }
+
+
+  .team{
+    &__title {
+      font-size: 36px;
+      line-height: 88%;
+    }
+    &__mean {
+      font-size: 14px;
+      margin: 0 auto 24px;
+    }
+    &_col-3{
+      &:nth-child(1) {
+        margin: 0 auto 20px;
+      }
+      &:nth-child(2) {
+        margin: 0 auto 20px;
+      }
+      &:nth-child(3) {
+        margin: 0 auto 20px;
+      }
+    }
+  }
+
+
+  .testimonials{
+    padding: 55px 0 60px;
+    &__title {
+      font-size: 37px;
+      line-height: 99%;
+      margin-bottom: 17px;
+    }
+    &__mean {
+      font-size: 14px;
+      line-height: 105%;
+      margin: 0 auto 23px;
+    }
+  }
+
+
+  .blog-post {
+    padding: 10px 0 54px;
+    &__title {
+      font-size: 37px;
+      line-height: 100%;
+    }
+    &__mean {
+      margin: 0 auto 30px;
+      font-size: 14px;
+    }
+    &__card-box_title {
+      font-size: 20px;
+      line-height: 131%;
+      margin-bottom: 15px;
+    }
+  }
+
+
+  .footer{
+    &::after {
+      content: '';
+      display: none;
+    }
+    &__end-title {
+      padding: 21px 0 0;
+    }
+    &__col {
+      width: 100%;
+      margin-left: 140px;
+      margin-bottom: 20px;
+    }
+    &__col_mean {
+      margin-left: 140px;
+      margin-bottom: 20px;
+      width: 100%;
     }
   }
 }
+
+//@media (max-width: 576px) {
+////  576px to 480px
+//  .container{
+//    max-width: 600px;
+//  }
+//  .hero{
+//    &__title {
+//      font-size: 53px;
+//      line-height: 59px;
+//      margin-bottom: 13px;
+//      padding: 106px 0 0;
+//    }
+//    &__mean {
+//      max-width: 431px;
+//      font-size: 18px;
+//      line-height: 23px;
+//      color: #888888;
+//      margin-bottom: 24px;
+//    }
+//  }
+//  .hero__rule-photo {
+//      top: 39px;
+//      right: -163px;
+//      height: 73%;
+//    }
+//
+//}
+//}
