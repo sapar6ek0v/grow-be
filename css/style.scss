@@ -135,8 +135,22 @@ body{
     border: none;
   }
 }
-
-
+.header__menu_ul{
+  position: fixed;
+  background: #F25822 ;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 60%;
+  padding: 40px 20px 20px 40px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header_button{
+  display: none;
+}
 .hero{
   height: calc(100vh - 124px);
   min-height: 600px;
